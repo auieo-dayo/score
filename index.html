@@ -1,0 +1,32 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css">
+
+</head>
+<body>
+    <div id="score">
+        
+    </div>
+    <button onclick="reset()">リセット</button>
+    <input type="number" class="nun" id="red">
+    <input type="number" class="nun" id="blue">
+    <button onclick="ref()">反映</button>
+    <button onclick="tyuui()">利用に関しての注意事項</button>
+    <main>
+        <div class="button">
+<div class="red">
+    <button id="red_p" class="button" onclick="main('rp')">+</button>
+    <button id="red_m" class="button" onclick="main('rm')">-</button>
+</div>
+<div class="blue">
+    <button id="blue_p" class="button" onclick="main('bp')">+</button>
+    <button id="blue_m" class="button" onclick="main('bm')">-</button>
+</div>
+        </div>
+    </main>
+    <script src="/js/index.js"></script>
+</body>
+</html>
